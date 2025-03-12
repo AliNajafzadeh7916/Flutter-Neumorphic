@@ -195,6 +195,7 @@ class NeumorphicToggle extends StatelessWidget {
             heightFactor: 1,
             child: Neumorphic(
               style: NeumorphicStyle(
+                color: Colors.transparent,
                 boxShape: NeumorphicBoxShape.roundRect(
                     this.style?.borderRadius ??
                         BorderRadius.all(Radius.circular(12))),
